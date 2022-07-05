@@ -46,6 +46,7 @@
 
 .donateSection {
   text-align: center;
+  padding: 100px 0;
 }
 
 .donateSection h2 {
@@ -59,10 +60,21 @@
   margin: 20px 0 30px 0;
 }
 
-.donateSection .donationAmounts {
+.donateSection a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #0984e3;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.donationAmounts {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .donationAmount {
@@ -79,7 +91,7 @@
 }
 
 .donationAmount:hover {
-  background-color: #0985e380;
+  background-color: #d9efff;
   padding: 60px 80px;
   margin: 0 20px;
   border-radius: 10px;
@@ -87,6 +99,28 @@
   cursor: pointer;
 }
 
-.donationAmount:hover + .donationAmount h3 {
+.donationAmount:hover h3 {
   color: #0984e3;
+}
+
+.customAmount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.customAmount input {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin: 50px 0;
+  width: 90%;
+  text-align: center;
+  padding: 15px 0;
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 1px;
+  outline: none;
 }

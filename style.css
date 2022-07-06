@@ -129,6 +129,7 @@
 
 .planSection {
   text-align: center;
+  padding: 0 0 100px 0;
 }
 
 .planSection h2 {
@@ -146,6 +147,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .plan {
@@ -157,6 +160,7 @@
   justify-content: space-between;
   align-items: flex-start;
   border-radius: 10px;
+  width: 33%;
 }
 
 .plan:nth-child(1) {
@@ -168,7 +172,7 @@
 }
 
 .plan:nth-child(3) {
-  background-color: #FFF4D6;
+  background-color: #fff4d6;
 }
 
 .plan h4 {
@@ -178,4 +182,96 @@
 
 .plan p {
   margin: 0;
+}
+
+/* plan section */
+
+.getUpdate {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.getUpdate h2 {
+  font-size: 40px;
+}
+
+.getUpdate p {
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 20px 0 30px 0;
+}
+
+.subscribeForm {
+  background-color: #fff4d6;
+  width: 75%;
+  margin: 0 auto;
+  padding: 100px 0;
+  border-radius: 15px;
+}
+
+.subscribeForm .email {
+  padding: 10px 10px;
+  border: none;
+  background-color: #d9d9d9;
+  width: 25%;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.subscribeForm .submit {
+  padding: 10px 25px;
+  border: none;
+  background-color: #0984e3;
+  color: #fff;
+  cursor: pointer;
+  margin-left: -5px;
+  border-radius: 0 5px 5px 0;
+}
+
+/* mission section */
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.missionDetail {
+  padding: 0 50px;
+  width: 50%;
+}
+
+.missionDetail h2 {
+  font-size: 40px;
+}
+
+.missionDetail p {
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 20px 0 30px 0;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  background-color: #000;
+  padding: 50px 0;
+}
+
+footer h2 {
+  color: #0984e3;
+  font-family: "Splash", cursive;
+  font-size: 45px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 20px 0 30px 0;
 }

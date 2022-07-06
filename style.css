@@ -124,3 +124,58 @@
   letter-spacing: 1px;
   outline: none;
 }
+
+/* plan section */
+
+.planSection {
+  text-align: center;
+}
+
+.planSection h2 {
+  font-size: 40px;
+}
+
+.planSection p {
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 20px 0 30px 0;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan {
+  text-align: left;
+  margin: 0 20px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.plan:nth-child(1) {
+  background-color: #4f9da61a;
+}
+
+.plan:nth-child(2) {
+  background-color: #ff59591a;
+}
+
+.plan:nth-child(3) {
+  background-color: #FFF4D6;
+}
+
+.plan h4 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.plan p {
+  margin: 0;
+}

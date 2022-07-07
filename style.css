@@ -245,6 +245,10 @@
   margin: 50px 0;
 }
 
+.missionDetail img {
+  border-radius: 10px;
+}
+
 .missionDetail h2 {
   font-size: 40px;
 }
